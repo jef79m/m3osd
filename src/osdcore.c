@@ -513,7 +513,7 @@ void osdInit(void)
     spi.SPI_CPOL = SPI_CPOL_Low;
     spi.SPI_CPHA = SPI_CPHA_1Edge;
     spi.SPI_NSS = SPI_NSS_Soft;
-    // spi.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_2; 
+    //spi.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_2; 
     //spi.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_8; // 400 pixels on x axis
     //spi.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_4; // ~800 pixels on x axis
     //spi.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_16; // ~200 pixels on x axis
