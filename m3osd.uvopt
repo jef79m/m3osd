@@ -330,7 +330,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGTARM</Key>
-          <Name>(1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=644,20,1280,679,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=869,118,1280,509,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=696,171,1280,851,0)(160=842,124,1280,524,0)(161=842,130,1280,530,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0)</Name>
+          <Name>(1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=644,20,1280,679,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=869,118,1280,509,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=696,88,1280,768,0)(160=842,124,1280,524,0)(161=842,130,1280,530,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -340,12 +340,12 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name>(105=-1,-1,-1,-1,0)(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0)</Name>
+          <Name>(105=150,186,819,534,0)(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>UL2CM3</Key>
-          <Name>-UV0201283 -O206 -S8 -C0 -N00("ARM CoreSight SW-DP") -D00(1BA01477) -L00(0) -TO18 -TC72000000 -TP21 -TDS803D -TDT0 -TDC1F -TIEFFFFFFFF -TIP7 -FO15 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000</Name>
+          <Name>-UV0168AVR -O206 -S8 -C0 -P00 -N00("ARM CoreSight SW-DP") -D00(1BA01477) -L00(0) -TO18 -TC72000000 -TP21 -TDS803D -TDT0 -TDC1F -TIEFFFFFFFF -TIP7 -FO15 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
       <Breakpoint/>
@@ -446,10 +446,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>1</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>180</TopLine>
-      <CurrentLine>434</CurrentLine>
+      <TopLine>82</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -474,10 +474,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>28</ColumnNumber>
+      <ColumnNumber>40</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>6</TopLine>
-      <CurrentLine>7</CurrentLine>
+      <TopLine>164</TopLine>
+      <CurrentLine>182</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\multiwii.c</PathWithFileName>
       <FilenameWithoutPath>multiwii.c</FilenameWithoutPath>
@@ -496,11 +496,25 @@
       <PathWithFileName>.\src\gps.c</PathWithFileName>
       <FilenameWithoutPath>gps.c</FilenameWithoutPath>
     </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>0</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\src\osdComponents.c</PathWithFileName>
+      <FilenameWithoutPath>osdComponents.c</FilenameWithoutPath>
+    </File>
   </Group>
 
   <Group>
     <GroupName>System</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <File>
@@ -693,8 +707,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>132</TopLine>
+      <CurrentLine>133</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\startup\startup_stm32f10x_md.s</PathWithFileName>
       <FilenameWithoutPath>startup_stm32f10x_md.s</FilenameWithoutPath>
@@ -703,7 +717,7 @@
 
   <Group>
     <GroupName>Drivers</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <File>
@@ -824,10 +838,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>37</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>674</TopLine>
+      <CurrentLine>681</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\osdcore.c</PathWithFileName>
       <FilenameWithoutPath>osdcore.c</FilenameWithoutPath>
@@ -1218,8 +1232,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>42</TopLine>
+      <CurrentLine>43</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\CoOS\portable\Keil\port.c</PathWithFileName>
       <FilenameWithoutPath>port.c</FilenameWithoutPath>

@@ -415,6 +415,11 @@
               <FileType>1</FileType>
               <FilePath>.\src\gps.c</FilePath>
             </File>
+            <File>
+              <FileName>osdComponents.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\osdComponents.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1254,6 +1259,11 @@
               <FileName>gps.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\gps.c</FilePath>
+            </File>
+            <File>
+              <FileName>osdComponents.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\osdComponents.c</FilePath>
             </File>
           </Files>
         </Group>
