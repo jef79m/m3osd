@@ -95,6 +95,7 @@ void setup(void)
     TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;
     TIM_TimeBaseInit(TIM4, &TIM_TimeBaseStructure);
     TIM_Cmd(TIM4, ENABLE);
+
 }
 
 // microsecond delay using TIM4
@@ -135,7 +136,8 @@ void mainTask(void *unused)
         
        // osdDrawRectangle(0, 0, OSD_WIDTH, osdData.Height, 1);
 
-        osdHorizon();
+        //osdHorizon();
+        newHorizon();
         osdHeading();
         
 
@@ -250,13 +252,13 @@ void mainTask(void *unused)
         osdDrawDecimal(FONT_16PX_FIXED, multiwiiData.GPS_directionToHome, 5, 0, 5);   // ??
 
 
-
+/*
         osdSetCursor(0, osdData.Height - 2 * 16 - 1);
         osdDrawDecimal2(FONT_16PX_FIXED, sensorData.volts * 100, 5, 0, 2);
         osdDrawCharacter('V', FONT_16PX_FIXED);
         osdDrawDecimal2(FONT_16PX_FIXED, sensorData.amps, 5, 0, 1);
         osdDrawCharacter('A', FONT_16PX_FIXED);
-
+*/
 
         osdSetCursor(0, osdData.Height - 1 * 16 - 1);
         osdDrawDecimal2(FONT_16PX_FIXED, 1234, 5, 0, 5);
